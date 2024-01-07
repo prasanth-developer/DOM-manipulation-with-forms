@@ -1,0 +1,115 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url("https://plus.unsplash.com/premium_photo-1661777702966-aed29ab4106b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    
+    margin: 0;
+   
+  }
+
+  .title-card {
+    text-align: center;
+    background-color: #020a0a;
+    color: #fff;
+    padding: 20px;
+    font-family:serif;
+  }
+  
+  #title {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+
+  .cover {
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 5px;
+    
+  }
+  
+
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  
+  .form-group{
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    column-gap: 30px;
+    row-gap: 10px;
+   
+}   
+#labelGenderl{
+    grid-column: span 2;
+}
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea,
+  select {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+
+  #food-checkboxes {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #food-checkboxes label {
+    margin-right: 15px;
+  }
+  
+ 
+  button {
+    padding: 10px;
+    background-color: #242bc0;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px 350px;
+  }
+  
+  button:hover {
+    background-color: #1e16c3;
+  }
+  
+
+  table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #11c399;
+    color: #fff;
+  }
+  
+  
+  @media (max-width: 600px) {
+    form {
+      margin: 0;
+    }
+  }
+  
